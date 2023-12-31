@@ -16,19 +16,19 @@ function App() {
             <p>Programming Enthusiast, Film Enthusiast</p>
           </div>
           <div className="mt-16">
-            <a className="btn-action" href="www.Instagram.com/_dbrolex_0418" target="_blank">
+            <a className="btn-action" href="https://www.instagram.com/_dbrolex_0418/" target="_blank">
               <FaInstagram />
               <span>Instagram</span>
             </a>
           </div>
           <div className="mt-16">
-            <a className="btn-action" href="www.threads.net/_dbrolex_0418" target="_blank">
+            <a className="btn-action" href="https://www.threads.net/@_dbrolex_0418" target="_blank">
               <FaThreads />
               <span>Threads</span>
             </a>
           </div>
           <div className="mt-16">
-            <a className="btn-action" href="www.Instagram.com/_dbrolex_0418" target="_blank">
+            <a className="btn-action" href="https://github.com/LawrenceVectus86" target="_blank">
               <FaGithub />
               <span>GitHub</span>
             </a>
