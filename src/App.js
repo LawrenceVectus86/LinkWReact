@@ -1,23 +1,51 @@
-import logo from './logo.svg';
 import './App.css';
+import ParticlesBg from 'particles-bg';
+import { FaInstagram, FaReact } from 'react-icons/fa6';
+import { FaThreads } from 'react-icons/fa6';
+import { FaGithub } from 'react-icons/fa6';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div>
+      <div className="card">
+        <div className="card-body">
+          <div className="card-header text-center profile">
+            <img className="avatar" src="/logoprofile.png"></img>
+            <h1>@_dbrolex_0418</h1>
+            <p>Programming Enthusiast, Film Enthusiast</p>
+          </div>
+          <div className="mt-16">
+            <a className="btn-action" href="www.Instagram.com/_dbrolex_0418" target="_blank">
+              <FaInstagram />
+              <span>Instagram</span>
+            </a>
+          </div>
+          <div className="mt-16">
+            <a className="btn-action" href="www.threads.net/_dbrolex_0418" target="_blank">
+              <FaThreads />
+              <span>Threads</span>
+            </a>
+          </div>
+          <div className="mt-16">
+            <a className="btn-action" href="www.Instagram.com/_dbrolex_0418" target="_blank">
+              <FaGithub />
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+        <a className="footer">
+          Create By Calvin Lawrence with React <FaReact />
         </a>
-      </header>
+        <div className="logofoot">
+          <span>
+            <FaGithub />
+            <FaInstagram />
+            <FaThreads />
+          </span>
+        </div>
+      </div>
+      <ParticlesBg type="thick" bg={true} />
     </div>
   );
 }
