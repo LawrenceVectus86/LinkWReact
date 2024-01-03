@@ -3,6 +3,7 @@ import ParticlesBg from 'particles-bg';
 import { FaInstagram, FaReact } from 'react-icons/fa6';
 import { FaThreads } from 'react-icons/fa6';
 import { FaGithub } from 'react-icons/fa6';
+import { MdAccountBox } from 'react-icons/md';
 import React from 'react';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <div className="card">
         <div className="card-body">
           <div className="card-header text-center profile">
-            <img className="avatar" src="/logoprofile.png"></img>
+            <img className="avatar" src="/icon.jpg"></img>
             <h1>@_dbrolex_0418</h1>
             <p>Programming Enthusiast, Film Enthusiast</p>
           </div>
@@ -33,6 +34,12 @@ function App() {
               <span>GitHub</span>
             </a>
           </div>
+          <div className="mt-16">
+            <a className="btn-action" href="https://lawrencevectus86.github.io/Portofolio-CalvinLawrence/" target="_blank">
+              <MdAccountBox />
+              <span>Portofolio</span>
+            </a>
+          </div>
         </div>
         <a className="footer">
           Create By Calvin Lawrence with React <FaReact />
@@ -40,8 +47,12 @@ function App() {
         <div className="logofoot">
           <span>
             <FaGithub />
+            _
             <FaInstagram />
+            _
             <FaThreads />
+            _
+            <MdAccountBox />
           </span>
         </div>
       </div>
